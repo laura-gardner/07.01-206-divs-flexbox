@@ -136,6 +136,15 @@ body {
     padding: 0.5em;
 }
 
+.div-border {
+    width: 0.01%;
+    opacity: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36454F;
+}
+
 .div-1 {
     background-color: #788AA3;
 }
