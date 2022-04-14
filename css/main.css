@@ -116,10 +116,34 @@ body {
     height: 100%;
 }
 
+#header {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    width: 100%;
+    font-size: 2em;
+    background-color: #BAD4AA;
+    height: 200px;
+    color: white;
+    padding-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#main {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    width: 100%;
+    background-color: #151e3f;
+    color: white;
+    font-size: 2em;
+    padding: 0 0.5em;
+    margin-bottom: 0.5em;
+}
+
 .wrapper {
     display: flex;
     justify-content: space-between;
-    font-weight: 700;
 }
 
 .div-1,
@@ -134,10 +158,12 @@ body {
     font-size: 1.5em;
     height: 300px;
     padding: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .div-border {
     width: 0.01%;
+    height: 330px;
     opacity: 33%;
     display: flex;
     justify-content: center;
@@ -155,6 +181,22 @@ body {
 
 .div-3 {
     background-color: #880D1E;
+}
+
+#footer {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    background-color: #BAD4AA;
+    color: white;
+    padding-left: 0.75em;
+    height: 75px;
+}
+
+img {
+    height: 50px;
+    margin-right: 0.5em;
 }
 
 
